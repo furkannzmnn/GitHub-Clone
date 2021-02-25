@@ -1,0 +1,521 @@
+*
+{
+    margin: 0;
+    
+}
+body{
+    background-color: rgb(6, 9, 15);
+}
+
+.Lside{
+    
+    display: flex;
+    width: 315px;
+    height: 847px;
+    background-color: rgb(13, 17, 23);
+    box-sizing: border-box;
+    border-right: 1px solid rgb(61, 59, 59);
+}
+.menuTop ul {
+   margin: 0;
+} 
+.menuTop ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 12px;
+ } 
+ .menuTop ul li a {
+     position: relative; left: 290px;
+     margin-top: -45px;
+     text-decoration: none;
+     float: left;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 14px;  
+ }
+ .menuTop ul li a:hover{
+     color: rgb(190, 184, 184);
+ }
+
+.Lside .icon {
+    font-size: 32px;
+    color: white;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.Lside .icon2{
+    position: relative ; left: 1080px; top: 27px;
+    color: white;
+    font-size: 13px;
+}
+
+.Lside .gthb{
+    background-color: rgb(13, 17, 23);
+    width: 298px;
+    margin-top: 22px;
+    margin-left: 25px;
+    border-bottom: 110px;
+    color: white;
+    height: 20px;
+}
+.Lside .icon:hover{
+    color: rgb(190, 184, 184);
+}
+.Tside{
+   
+    margin-top: -850px;
+    width: 1265px;
+    height: 62px;
+    background-color: rgb(22, 27, 34);
+}
+
+/* Right Plus Button Design*/
+.dropleft .plus {
+    position: relative; top: -70px; left: 1180px;
+    color: white;
+}
+.dropleft .dropdown-menu a{
+   color: white;
+}
+.dropleft .dropdown-menu a:hover{
+    background-color: rgb(0, 89, 223);
+}
+/* plus ikon */
+.Lside .icon3{
+    color: white;
+    font-size: 13px;
+    position: relative; left: 1095px; top: 27px;
+}
+/* Profile Photo Side Design*/
+.ProfileF .img img {
+    border-radius: 100%;
+    position: relative; left: 1200px; top: -95px;
+    height: 20px;
+    width: 20px;
+
+}
+.pp .openM {
+  position: relative; left: 1210px; top: -119px;
+  color: white;
+}
+.pp  .dropdown-menu a{
+    color: white;
+}
+.pp .dropdown-menu a:hover{
+    background-color: rgb(0, 89, 223);
+}
+
+/* Repositories*/
+.container{
+    position: relative; top: -80px; left: 130px;
+}
+.repo h5{
+    color: white;
+    position: relative; left: 35px; top: -99px;
+    font-size: 14px;
+}
+.container .btton {
+    font-size: 25px;
+    width: 70px; height: 30px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    border:1px solid rgba(255, 255, 255, 0);
+    background-color: rgb(25, 92, 25);
+}
+
+.container h6 {
+    font-size: 11px; margin-left:22px ; margin-top: 5px;
+}
+.container i {
+    font-size: 18px; 
+    position: relative; top: -35px; left: -15px;
+}
+
+/* repository find design */
+.search input{
+    opacity: 0.6;
+    background-color: rgb(6, 9, 15);
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.301);
+    border-radius: 5px;
+    width: 250px; height: 30;
+    position: relative; top: -90px; left: 30px;
+    color: white;
+}
+.search ::placeholder{
+    font-size: 14px;
+    position: relative; left: 12px;
+    font-family: sans-serif;
+}
+
+.subject ul {
+    margin: 0;
+   
+}
+
+.subject ul li {
+    list-style: none;
+    margin: 20px;
+   
+}
+.subject ul li a {
+    font-family: 'Fira Sans', sans-serif;
+    color: rgb(88, 166, 255);
+    position: relative;  top: -95px;
+    font-size: 13px;
+    
+}
+.subject ul li a:hover{
+    text-decoration:underline rgb(88, 166, 255);
+}
+.subject a {
+    font-size: 12px;
+    color: white;
+    position: relative; top: -100px;
+}
+.subject a:hover{
+    text-decoration: none;
+    color: rgb(88, 166, 255);
+}
+/*long line */
+.Lline{
+    height: 0px; width: 250px;color:#c9d1d9;
+    border: 1px solid ; 
+    position: relative;
+    top: -85px;
+}
+.yazılar h5{
+    color: rgba(255, 255, 255, 0.63);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px; 
+    margin-top: -70px; margin-left: 0px;
+}
+.yazılar{
+    color: rgba(255, 255, 255, 0.411);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px; 
+    margin-top: -70px; margin-left: 38px;
+}
+
+.yazılar .button {
+    width: 153px; height: 35px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background-color: rgb(27, 38, 54);
+    border: 1px solid rgba(185, 168, 168, 0.541);
+    color: rgb(88, 166, 255);
+    font-size: 12px;
+    font-family: 'Fira Sans', sans-serif;
+    transition: 250ms;
+}
+.yazılar .button:hover {
+    border: 1px solid rgb(88, 166, 255); ;
+}
+
+/* footer design*/
+.footer ul{
+    margin:0;
+    padding: 0;
+
+}
+.footer li {
+    list-style: none;
+}
+.footer a {
+    color: rgba(255, 255, 255, 0.411);    font-size: 12px;
+    margin-left:594px; 
+}
+.footer a:hover{
+    color: rgb(88, 166, 255);
+    text-decoration: underline rgb(88, 166, 255);
+}
+.footer2 ul{
+    margin:0;
+    padding: 0;
+
+}
+.footer2 li {
+    list-style: none;
+}
+.footer2 a {
+    color: rgba(255, 255, 255, 0.411);    font-size: 12px;
+    margin-left:724px; 
+   position: relative; top: -118px;
+}
+.footer2 a:hover{
+    color: rgb(88, 166, 255);
+    text-decoration: underline rgb(88, 166, 255);
+}
+.footer3 ul{
+    margin:0;
+    padding: 0;
+
+}
+.footer3 li {
+    list-style: none;
+}
+.footer3 a {
+    color: rgba(255, 255, 255, 0.411);    font-size: 12px;
+    margin-left:830px; 
+   position: relative; top: -214px;
+}
+.footer3 a:hover{
+    color: rgb(88, 166, 255);
+    text-decoration: underline rgb(88, 166, 255);
+}
+.Githubİ .icon{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.411);
+    margin-top: -920px;
+    margin-left: 144px;
+    position: relative; top: -195px;
+}
+.Githubİ .icon:hover{
+    color: white;
+}
+
+/* middle area design */
+.middle p {
+    color: rgba(255, 255, 255, 0.651);
+    position: relative; top: -870px ;
+    margin-left: 375px;
+    font-size: 13px;
+    font-family: 'Fira Sans', sans-serif;
+ 
+}
+.middle .follow{
+    box-sizing: border-box;
+    width: 510px; height: 103px;
+    background-color: rgb(13, 17, 23);
+    border: 1px solid rgba(185, 168, 168, 0.541);;
+    position: relative; top: -880px;
+    margin-left: 375px;
+    border-radius: 6px;
+}
+
+.middle i{
+    color: rgb(255, 255, 255);
+    position: relative; top: -30px;
+    margin-left:-30px;
+    font-size: 18px;
+}
+.middle .İ2{
+    color: white;
+    position: relative; top: 16px;
+    margin-left: 25px;
+    font-size: 30px;
+ 
+}
+.middle .userlink {
+    color:white;
+    position: relative; top:5px;
+    margin-left:10px;
+}
+.middle .userlink2 {
+    color:rgba(192, 179, 179, 0.61);
+    position: relative; top:5px;
+    margin-left:4px;
+    font-size:12px;
+}
+.middle .userlink:hover{
+    text-decoration: none;
+    color:rgb(88, 166, 255);
+}
+.middle .userlink2:hover{
+    text-decoration: none;
+    color:rgb(88, 166, 255);
+}
+.middle .bio{
+    color: white;
+    font-size: 15px;
+    font-family: 'Fira Sans', sans-serif;
+    position:relative; top: 9px;
+    margin-left:60px;
+}
+.middle .follow1{
+    color:rgba(192, 179, 179, 0.61);
+    font-size: 12px;
+    position: relative; top: 2px; left: 25px;
+    text-align: justify;
+    margin-left: 35px;
+}
+.middle .follow1:hover{
+    text-decoration: none;
+    color:rgb(88, 166, 255);
+
+}
+.middle .followClick {
+    width: 59px; height: 27px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background-color: rgb(27, 38, 54);
+    border: 1px solid rgba(185, 168, 168, 0.541);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-family: 'Fira Sans', sans-serif;
+    transition: 250ms;
+    position:relative; top: -50px;
+    margin-left:215px;
+}
+.middle .followClick:hover{
+    border: white;
+}
+.middle .LongLine{
+    height: 0px; width: 530px;
+    opacity:0.7;
+    color:rgba(185, 168, 168, 0.541);
+    box-sizing: border-box;
+    border: 1px solid ; 
+    position:relative; top:35px;
+    margin-left:-20px;
+ 
+}
+.middle .bulb  {
+    color:rgba(221, 211, 211, 0.541);
+    font-size: 13px;
+    position: relative; top:60px;
+    margin-left:-25px;
+
+}
+.middle .live{
+    color:rgba(216, 203, 203, 0.541);
+    font-size: 13px;
+    position: relative; top:70px;
+    margin-left:-25px;
+}
+.middle .live:hover{
+    text-decoration:underline rgb(88, 166, 255);
+    color:rgb(88, 166, 255);
+}
+
+.ExploreRe h3{
+    color:white;
+    font-size:14px;
+    position:relative;top:-1010px;
+    margin-left:910px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.ExploreRe a{
+    color:rgba(230, 235, 235, 0.89);
+    font-size:13px;
+    position:relative;top:-1000px;
+    margin-left:910px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.ExploreRe p{
+    color:rgba(140, 143, 143, 0.699);
+    font-size:12px;
+    position:relative;top:-1000px;
+    margin-left:910px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.ExploreRe .RaoundC{
+    height: 0px; width: 282px;color:#c9d1d969;
+    border: 1px solid ; 
+    position: relative;
+    top: -980px;
+    margin-left:910px;
+}
+.ExploreRe .RaoundB{
+    height: 13px; width: 13px;
+    background-color: rgb(255, 255, 73);
+    color:#c9d1d969;
+    border: 1px solid ; 
+    position: relative;
+    border-radius:100%;
+    top: -1010px;
+    margin-left:910px;
+}
+.ExploreRe .RaoundB h6{
+    font-size:13px;
+    margin-left:15px;
+    font-family: 'Fira Sans', sans-serif;
+    color:rgba(255, 255, 255, 0.829);
+
+}
+.ExploreRe2 a{
+    color:rgba(230, 235, 235, 0.89);
+    font-size:13px;
+    position:relative;top:-970px;
+    margin-left:910px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.ExploreRe2 p{
+    color:rgba(140, 143, 143, 0.699);
+    font-size:12px;
+    position:relative;top:-970px;
+    margin-left:910px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.ExploreRe2 .RaoundC{
+    height: 0px; width: 282px;color:#c9d1d969;
+    border: 1px solid ; 
+    position: relative;
+    top: -950px;
+    margin-left:910px;
+}
+.ExploreRe2 .RaoundB{
+    height: 13px; width: 13px;
+    background-color: rgb(255, 255, 73);
+    color:#c9d1d969;
+    border: 1px solid ; 
+    position: relative;
+    border-radius:100%;
+    top: -980px;
+    margin-left:910px;
+}
+.ExploreRe2 .RaoundB h6{
+    font-size:13px;
+    margin-left:15px;
+    font-family: 'Fira Sans', sans-serif;
+    color:rgba(255, 255, 255, 0.829);
+
+}
+.ExploreRe3 a{
+    color:rgba(230, 235, 235, 0.89);
+    font-size:13px;
+    position:relative;top:-940px;
+    margin-left:910px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.ExploreRe3 p{
+    color:rgba(140, 143, 143, 0.699);
+    font-size:12px;
+    position:relative;top:-940px;
+    margin-left:910px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.ExploreRe3 .RaoundB{
+    height: 13px; width: 13px;
+    background-color: rgb(255, 255, 73);
+    color:#c9d1d969;
+    border: 1px solid ; 
+    position: relative;
+    border-radius:100%;
+    top: -950px;
+    margin-left:910px;
+}
+.ExploreRe3 .RaoundB h6{
+    font-size:13px;
+    margin-left:15px;
+    font-family: 'Fira Sans', sans-serif;
+    color:rgba(255, 255, 255, 0.829);
+
+}
+.bookmark ul {
+    margin:0;
+    padding: 0;
+}
+.bookmark li {
+    list-style: none;
+    margin:19px
+
+}
+.bookmark img{
+    position: relative;
+    top: -1205px;
+    margin-left: 22px;
+}
+
+
